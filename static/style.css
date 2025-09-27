@@ -1,0 +1,45 @@
+/* Background with light pink shade */
+body {
+    background: linear-gradient(to right, #ffe4ec, #ffd6e7);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card container */
+.card {
+    border-radius: 15px;
+    border: none;
+    background: #fff url("https://www.transparenttextures.com/patterns/flowers.png");
+    background-size: cover;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+/* Headings */
+h2 {
+    color: #e75480;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    border-radius: 8px !important;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #e75480;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #d9436c;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
